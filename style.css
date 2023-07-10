@@ -59,7 +59,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .featured-description {
@@ -72,9 +72,14 @@
     margin-bottom: 48px;
 }
 
+.featured-item img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
 .featured-item {
-    width: 464px;
-    height: 538px;
+    width: 260px;
+    height: 320px;
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
     display: flex;
@@ -98,3 +103,79 @@
 }
 
 /* icon corner style start here */
+.icon-corner {
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 100px;
+    padding: 80px;
+}
+
+/* hot deal section style here */
+.hot-deal {
+    background-color: #E554730D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.highlighted-text {
+    color: #E55473;
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+.hot-deal-header {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.hot-deal-paragraph {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.hot-deal-img{
+    width: 300px;
+    height: 300px;
+}
+
+/* Instagram flower highlighted section style here */
+
+.instagram-flower-highlighted{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 10px 50px;
+}
+
+.instagram-flower-highlighted img{
+    width: 200px;
+    height: 200px;
+}
+/* subscribe section style */
+.subscribe-email{
+    padding: 18px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.latest-deal img{
+    width: 900px;
+    margin-bottom: -200px;
+}
+
+.latest-deal{
+    text-align: center;
+}
