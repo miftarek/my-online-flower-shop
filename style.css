@@ -42,3 +42,59 @@
     font-style: normal;
     font-weight: 700;
 }
+
+/* Featured flower section style starting here */
+
+.featured-flower-item {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.featured-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 200px;
+}
+
+.featured-description {
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.featured-item {
+    width: 464px;
+    height: 538px;
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.item-desc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* icon corner style start here */
