@@ -161,7 +161,7 @@
 }
 
 .instagram-flower-highlighted img{
-    width: 200px;
+    width: 180px;
     height: 200px;
 }
 /* subscribe section style */
@@ -178,4 +178,17 @@
 
 .latest-deal{
     text-align: center;
+    margin: 30px 0px 120px 0;
+}
+
+/* footer design here */
+footer{
+    background-color: #111010;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.copyright{
+    margin-top: 10px;
 }
