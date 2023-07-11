@@ -12,8 +12,8 @@
 }
 
 .header-container img {
-    width: 635px;
-    height: 800px;
+    width: 500px;
+    height: 700px;
 }
 
 .header-title {
@@ -34,7 +34,7 @@
 
 .primary-btn {
     background-color: #E55473;
-    padding: 20px 40px;
+    padding: 15px 25px;
     border: none;
     border-radius: 8px;
     color: #FFF;
@@ -164,21 +164,54 @@
     width: 180px;
     height: 200px;
 }
+/* review section style */
+.review-container h2{
+    text-align: center;
+}
+
+.review-container p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.user-review{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-item{
+    width: 250px;
+    text-align: center;
+    background: #a09d9e;
+    color: white;
+}
+
+.user-review img{
+    width: 100px;
+    border-radius: 10px;
+}
+
 /* subscribe section style */
 .subscribe-email{
-    padding: 18px 50px;
+    padding: 18px 120px;
     border: none;
     border-radius: 5px;
 }
 
-.latest-deal img{
-    width: 900px;
-    margin-bottom: -200px;
+.latest-deal{
+    background: url("/images/Rectangle-9.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 30px 100px 30px 100px;
 }
 
-.latest-deal{
-    text-align: center;
-    margin: 30px 0px 120px 0;
+.latest-deal-content{
+   margin-top: 50px;
+}
+
+.latest-deal-content h2, p, input{
+    margin: 10px;
 }
 
 /* footer design here */
