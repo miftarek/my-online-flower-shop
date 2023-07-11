@@ -43,6 +43,12 @@
     font-weight: 700;
 }
 
+.primary-btn:hover{
+    background-color: #da0f3e;
+    color: rgb(231, 242, 252);
+    cursor: pointer;
+}
+
 /* Featured flower section style starting here */
 
 .featured-flower-item {
@@ -50,6 +56,7 @@
     gap: 24px;
     align-items: center;
     justify-content: space-around;
+    margin: 0px 70px 0px 70px;
 }
 
 .featured-header {
@@ -78,7 +85,7 @@
 }
 
 .featured-item {
-    width: 260px;
+    width: 300px;
     height: 320px;
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
@@ -110,6 +117,7 @@
     text-align: center;
     margin: 50px 100px;
     padding: 80px;
+    font-size: 18px;
 }
 
 /* hot deal section style here */
@@ -165,12 +173,35 @@
     height: 200px;
 }
 /* review section style */
+.review-container{
+    background-color: rgb(228, 231, 233);
+    padding: 30px;
+}
 .review-container h2{
+    color: #272727;
     text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .review-container p{
     text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.review-item p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
     margin-bottom: 25px;
 }
 .user-review{
@@ -181,8 +212,9 @@
 .review-item{
     width: 250px;
     text-align: center;
-    background: #a09d9e;
+    background: #7d717e;
     color: white;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .user-review img{
